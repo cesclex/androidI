@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/ActividadClase03/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/ActividadClase03" sel-end="505" sel-start="0" stamp="1382621401508" type="android.widget.LinearLayout"/>&#x0A;<refactoring comment="Extracts string &apos;null&apos; into R.string.hinMessage" description="Extracts string &apos;null&apos; into R.string.hinMessage" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="SELECT_NEW_ID" proj="/ActividadClase03" rplc-all-java="false" rplc-all-xml="false" stamp="1382621954013"/>
+</session>
