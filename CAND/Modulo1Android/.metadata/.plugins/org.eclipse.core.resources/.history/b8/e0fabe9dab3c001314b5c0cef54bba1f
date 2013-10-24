@@ -50,6 +50,13 @@ public class MainActivity extends Activity {
 
 
 	@Override
+	protected void onNewIntent(Intent intent) {
+		// TODO Auto-generated method stub
+		super.onNewIntent(intent);
+	}
+
+
+	@Override
 	protected void onPause() {
 		// TODO Auto-generated method stub
 		super.onPause();
@@ -58,6 +65,19 @@ public class MainActivity extends Activity {
 		Toast.makeText(this, "Pausando Like!", Toast.LENGTH_SHORT).show();
 	}
 
+
+	@Override
+	protected void onPostCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onPostCreate(savedInstanceState);
+	}
+
+
+	@Override
+	protected void onPostResume() {
+		// TODO Auto-generated method stub
+		super.onPostResume();
+	}
 
 
 	@Override
@@ -104,9 +124,6 @@ public class MainActivity extends Activity {
 	protected void onStart() {
 		// TODO Auto-generated method stub
 		super.onStart();
-		state++;
-		texto= texto + "\n"+state+" onStart";
-		Toast.makeText(this, "Iniciando Like!", Toast.LENGTH_SHORT).show();
 	}
 
 
@@ -114,8 +131,6 @@ public class MainActivity extends Activity {
 	protected void onStop() {
 		// TODO Auto-generated method stub
 		super.onStop();
-		state++;
-		texto= texto + "\n"+state+" onStop";
 	}
     
 }
