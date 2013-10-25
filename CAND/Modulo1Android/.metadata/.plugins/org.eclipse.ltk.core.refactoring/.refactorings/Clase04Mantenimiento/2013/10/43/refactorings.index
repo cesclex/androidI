@@ -1,0 +1,7 @@
+1382706134742	Change Layout
+1382706641815	Rename field 'editText1'
+1382707390034	Extracts string 'null' into R.string.lblcorreo
+1382707550005	Extracts string 'null' into R.string.lbledad
+1382707758911	Extracts string 'null' into R.string.lbldepartamento
+1382708071915	Extracts string 'null' into R.string.btnenviar
+1382708214323	Rename field 'autoCompleteTextView1'
