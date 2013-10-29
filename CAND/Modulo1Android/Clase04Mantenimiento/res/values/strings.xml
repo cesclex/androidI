@@ -10,19 +10,22 @@
     <string name="lbledad">Edad</string>
     <string name="lbldepartamento">Departamento</string>
     <string name="btnenviar">Enviar</string>
+
     <string-array name="departamentos">
-        <item >Ahuachapán</item>
-        <item >Sonsonate</item>
-        <item >Santa Ana</item>
-        <item >La Libertad</item>
-        <item >San Salvador</item>
-        <item >Cabañas</item>
-        <item >San Vicente</item>
-        <item >Morazán</item>
-        <item >La Unión</item>
-        <item >Usulután</item>
-        <item >San Miguel</item>
-        <item >Cuscatlán</item>
+        <item>Ahuachapán</item>
+        <item>Sonsonate</item>
+        <item>Santa Ana</item>
+        <item>La Libertad</item>
+        <item>San Salvador</item>
+        <item>Cabañas</item>
+        <item>San Vicente</item>
+        <item>Morazán</item>
+        <item>La Unión</item>
+        <item>Usulután</item>
+        <item>San Miguel</item>
+        <item>Cuscatlán</item>
     </string-array>
+
+    <string name="title_activity_result_">Result_Activity</string>
 
 </resources>

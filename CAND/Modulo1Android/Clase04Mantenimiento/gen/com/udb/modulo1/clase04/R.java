@@ -27,9 +27,10 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+        public static final int LinearLayout1=0x7f09000c;
         public static final int ScrollView1=0x7f090000;
         public static final int actdep=0x7f09000a;
-        public static final int action_settings=0x7f09000c;
+        public static final int action_settings=0x7f090012;
         public static final int button1=0x7f09000b;
         public static final int edtcorreo=0x7f090006;
         public static final int edtedad=0x7f090008;
@@ -40,12 +41,19 @@ public final class R {
         public static final int textView3=0x7f090005;
         public static final int textView4=0x7f090007;
         public static final int textView5=0x7f090009;
+        public static final int txtDpto=0x7f090010;
+        public static final int txtEdad=0x7f090011;
+        public static final int txtEmail=0x7f09000f;
+        public static final int txtfirstName=0x7f09000d;
+        public static final int txtlastName=0x7f09000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int activity_result=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
+        public static final int result_=0x7f080001;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -57,6 +65,7 @@ public final class R {
         public static final int lbledad=0x7f050006;
         public static final int lblfirstname=0x7f050003;
         public static final int lbllastname=0x7f050004;
+        public static final int title_activity_result_=0x7f050009;
     }
     public static final class style {
         /** 
