@@ -1,1 +1,4 @@
 1383056056689	Change Layout
+1383139389620	Extracts string 'null' into R.string.hintNote
+1383140380789	Extracts string 'null' into R.string.lblbtnok
+1383140417032	Rename field 'button1'

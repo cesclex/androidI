@@ -4,13 +4,18 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
 import android.content.Intent;
 import android.os.Build;
 
-public class Result_Activity extends Activity {
+public class Result_Activity extends Activity implements OnClickListener{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +38,9 @@ public class Result_Activity extends Activity {
 		TextView txtEdad=(TextView) findViewById(R.id.txtEdad);
 		String edadTexto=Integer.toString(data.getEdad());
 		txtEdad.setText(edadTexto);
+		
+		Button btnOk=(Button) findViewById(R.id.btnOk);
+		btnOk.setOnClickListener(this);
 		
 		
 	}
@@ -69,6 +77,24 @@ public class Result_Activity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	public void onClick(View view){
+		try{
+			switch (view.getId()) {
+			case R.id.btnOk:
+				EditText edtNote = (EditText) findViewById(R.id.edtNote);
+				String note= edtNote.getText().toString();
+				if(note.trim().equals("")){
+					throw new Exception("Ingrese una nota v‡lida");
+				}
+				Intent intent2= new Intent();
+				intent2.putExtra("nota", note);
+				
+				break;
+			}
+		}catch(Exception e){
+			Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+		}
 	}
 
 }

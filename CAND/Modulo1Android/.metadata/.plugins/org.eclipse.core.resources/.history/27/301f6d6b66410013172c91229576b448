@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase 04 Mantenimiento</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lblfirstname">Primer Nombre</string>
+    <string name="lbllastname">Primer Apellido</string>
+    <string name="lblcorreo">Correo Electrónico</string>
+    <string name="lbledad">Edad</string>
+    <string name="lbldepartamento">Departamento</string>
+    <string name="btnenviar">Enviar</string>
+
+    <string-array name="departamentos">
+        <item>Ahuachapán</item>
+        <item>Sonsonate</item>
+        <item>Santa Ana</item>
+        <item>La Libertad</item>
+        <item>San Salvador</item>
+        <item>Cabañas</item>
+        <item>San Vicente</item>
+        <item>Morazán</item>
+        <item>La Unión</item>
+        <item>Usulután</item>
+        <item>San Miguel</item>
+        <item>Cuscatlán</item>
+    </string-array>
+
+    <string name="title_activity_result_">Result_Activity</string>
+
+</resources>

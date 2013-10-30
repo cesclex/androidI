@@ -30,8 +30,9 @@ public final class R {
         public static final int LinearLayout1=0x7f09000c;
         public static final int ScrollView1=0x7f090000;
         public static final int actdep=0x7f09000a;
-        public static final int action_settings=0x7f090012;
-        public static final int button1=0x7f09000b;
+        public static final int action_settings=0x7f090013;
+        public static final int btnOk=0x7f09000b;
+        public static final int edtNote=0x7f090012;
         public static final int edtcorreo=0x7f090006;
         public static final int edtedad=0x7f090008;
         public static final int edtfirstname=0x7f090002;
@@ -60,6 +61,8 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int btnenviar=0x7f050008;
         public static final int hello_world=0x7f050002;
+        public static final int hintNote=0x7f05000a;
+        public static final int lblbtnok=0x7f05000b;
         public static final int lblcorreo=0x7f050005;
         public static final int lbldepartamento=0x7f050007;
         public static final int lbledad=0x7f050006;

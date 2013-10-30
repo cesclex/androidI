@@ -28,4 +28,8 @@
 
     <string name="title_activity_result_">Result_Activity</string>
 
+    <string name="hintNote">Ingrese una nota para aceptar</string>
+
+    <string name="lblbtnok">Aceptar</string>
+
 </resources>
