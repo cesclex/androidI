@@ -20,7 +20,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		AutoCompleteTextView actStates = (AutoCompleteTextView) findViewById(R.id.actdep);
 		String [] states = getResources().getStringArray(R.array.departamentos);
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,states);
+		/*ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,states);	*/
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.autocomplete_item,states);
 		actStates.setAdapter(adapter);
 	}
 

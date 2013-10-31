@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="com.udb.modulo1clase03.R.id"/>
 <fullyQualifiedTypeName name="com.udb.modulo1.clase04.R.array"/>
 <fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.R.layout"/>
 <fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
 <fullyQualifiedTypeName name="android.os.Build"/>
 <fullyQualifiedTypeName name="android.os.Build.VERSION"/>
@@ -25,4 +24,6 @@
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="com.udb.modulo1.clase04.R.id"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="com.udb.modulo1.clase04.R.layout"/>
 </qualifiedTypeNameHistroy>

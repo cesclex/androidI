@@ -89,6 +89,8 @@ public class Result_Activity extends Activity implements OnClickListener{
 				}
 				Intent intent2= new Intent();
 				intent2.putExtra("nota", note);
+				setResult(RESULT_OK,intent2);
+                finish();
 				
 				break;
 			}
