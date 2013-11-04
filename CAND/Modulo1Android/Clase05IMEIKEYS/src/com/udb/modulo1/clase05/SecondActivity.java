@@ -24,6 +24,7 @@ public class SecondActivity extends Activity implements OnClickListener{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_second);
 		// Show the Up button in the action bar.
+		
 		txtView =(TextView) findViewById(R.id.textPush);
 		Button btnPush= (Button) findViewById(R.id.btnPush);
 		btnPush.setOnClickListener(this);
@@ -32,8 +33,11 @@ public class SecondActivity extends Activity implements OnClickListener{
 		btnDelete.setOnClickListener(this);
 		
 		Intent intent  = getIntent();
+		id= intent.getStringExtra("idString");
 		
+		txtView.setText(id);
 		setupActionBar();
+		
 		
 	}
 
@@ -74,7 +78,15 @@ public class SecondActivity extends Activity implements OnClickListener{
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		
+		switch (v.getId()) {
+			case R.id.btnPush:
+				n++;
+				txtView.setText("Pulsando "+n+" veces");
+			break;
+			case R.id.btnDelete:
+				this.finish();
+			break;
+		}
 	}
 
 }

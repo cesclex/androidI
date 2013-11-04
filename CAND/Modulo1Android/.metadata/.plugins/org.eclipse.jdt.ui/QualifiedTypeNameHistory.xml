@@ -15,8 +15,6 @@
 <fullyQualifiedTypeName name="com.udb.modulo1.clase04.Result_Activity"/>
 <fullyQualifiedTypeName name="com.udb.modulo1.clase04.Data"/>
 <fullyQualifiedTypeName name="com.udb.modulo1.clase04.MainActivity"/>
-<fullyQualifiedTypeName name="android.view.View"/>
-<fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="com.udb.modulo1.clase04.R.id"/>
 <fullyQualifiedTypeName name="android.R.layout"/>
 <fullyQualifiedTypeName name="com.udb.modulo1.clase04.R.layout"/>
@@ -36,6 +34,13 @@
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="com.udb.modulo1.clase05.R.id"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.udb.modulo1.clase05.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnFocusChangeListener"/>
+<fullyQualifiedTypeName name="android.view.WindowManager"/>
+<fullyQualifiedTypeName name="android.view.WindowManager.LayoutParams"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.CheckBox"/>
+<fullyQualifiedTypeName name="com.udb.modulo1.clase06.R.id"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
 </qualifiedTypeNameHistroy>
