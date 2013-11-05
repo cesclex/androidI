@@ -39,8 +39,10 @@
 <fullyQualifiedTypeName name="android.view.View.OnFocusChangeListener"/>
 <fullyQualifiedTypeName name="android.view.WindowManager"/>
 <fullyQualifiedTypeName name="android.view.WindowManager.LayoutParams"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="android.widget.CheckBox"/>
 <fullyQualifiedTypeName name="com.udb.modulo1.clase06.R.id"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.RadioGroup"/>
+<fullyQualifiedTypeName name="android.widget.RadioButton"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 </qualifiedTypeNameHistroy>

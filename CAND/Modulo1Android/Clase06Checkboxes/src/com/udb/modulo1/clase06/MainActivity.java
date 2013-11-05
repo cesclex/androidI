@@ -43,5 +43,21 @@ public class MainActivity extends Activity {
 			break;
 		}
 	}
-
+	public String evaluar(CheckBox chkValue){
+		String like ="";
+		if(chkValue.isChecked()){
+			like= " "+chkValue.getText().toString();
+		}
+		return like;
+	}
+	public void onClickOk(View view){
+		String like="";
+		CheckBox chkValue=(CheckBox) findViewById(R.id.chkCarne);
+		like=like+evaluar(chkValue);
+		
+		CheckBox chkValue1=(CheckBox) findViewById(R.id.chkPollo);
+		like=like+evaluar(chkValue1);
+		
+		Toast.makeText(this, like, Toast.LENGTH_SHORT).show();
+	}
 }
