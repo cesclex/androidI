@@ -2,7 +2,6 @@ package com.udb.modulo1.clase02;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.content.Intent;
 import android.view.Menu;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,7 +16,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv= (TextView)findViewById(R.id.textView1);
+        tv= (TextView)findViewById(R.id.txtr);
         tv.setText(getResources().getString(R.string.mensaje1));
         try{
         	state = savedInstanceState.getInt("estado");
