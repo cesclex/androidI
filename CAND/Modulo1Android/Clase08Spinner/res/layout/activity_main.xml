@@ -17,7 +17,7 @@
         android:text="@string/lblSelCountry" />
 
     <Spinner
-        android:id="@+id/spinner1"
+        android:id="@+id/spnCountries"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/pais"
@@ -30,10 +30,17 @@
         android:text="@string/lblselecc" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spnMarcas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/marcas"
         android:prompt="@string/lblselecc" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblOk"
+        android:onClick="onClickOk" />
 
 </LinearLayout>

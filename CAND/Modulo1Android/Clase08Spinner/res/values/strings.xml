@@ -26,6 +26,7 @@
         <item>Canadá</item>
         <item>Dinamarca</item>
     </string-array>
+        <string name="lblOk">Enviar</string>
     
 
 </resources>
