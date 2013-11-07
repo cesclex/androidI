@@ -1,6 +1,11 @@
 com.android.ide.eclipse.adt.autoPickTarget=false
 com.android.ide.eclipse.adt.fixLegacyEditors=1
+<<<<<<< HEAD
 com.android.ide.eclipse.adt.sdk=/Users/estudianteudb-cep/Documents/adt-bundle-mac-x86_64-20130514/sdk
 com.android.ide.eclipse.adt.xmlEditor=true
 design.structure.flyout.state=1
+=======
+com.android.ide.eclipse.adt.refactorIds=always
+com.android.ide.eclipse.adt.sdk=D\:\\adt-bundle-windows-x86_64-20130917\\sdk
+>>>>>>> 663ef1629f02e47c5557d0165a0ef7bdfadf705f
 eclipse.preferences.version=1

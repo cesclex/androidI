@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.126+/Users/estudianteudb-cep/androidI/CAND/Modulo1Android/.metadata/.plugins/org.eclipse.jdt.core
 2889957280.index
 3085981191.index
@@ -19,3 +20,26 @@ INDEX VERSION 1.126+/Users/estudianteudb-cep/androidI/CAND/Modulo1Android/.metad
 1300365277.index
 917822835.index
 1923276216.index
+=======
+INDEX VERSION 1.126+D:\androidI\CAND\Modulo1Android\.metadata\.plugins\org.eclipse.jdt.core
+2808226930.index
+3343449310.index
+2053859033.index
+2414277884.index
+1798080022.index
+348659867.index
+2047374299.index
+1640791325.index
+2595968350.index
+478787427.index
+2285168547.index
+2589059118.index
+2630004282.index
+3912116261.index
+1529233367.index
+440042620.index
+1611152053.index
+202502486.index
+50922481.index
+2510233386.index
+>>>>>>> 663ef1629f02e47c5557d0165a0ef7bdfadf705f

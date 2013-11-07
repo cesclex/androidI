@@ -26,7 +26,7 @@ public final class R {
     public static final class id {
         public static final int ScrollView1=0x7f080000;
         public static final int action_settings=0x7f080002;
-        public static final int textView1=0x7f080001;
+        public static final int txtr=0x7f080001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
