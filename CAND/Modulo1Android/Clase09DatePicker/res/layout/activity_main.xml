@@ -15,7 +15,7 @@
         android:layout_height="wrap_content" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/txtUp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -31,7 +31,7 @@
         android:gravity="center_vertical" >
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtDate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -41,7 +41,8 @@
             android:id="@+id/btnDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btnDate" />
+            android:text="@string/btnDate"
+            android:onClick="showDatepicker" />
 
     </TableRow>
 
@@ -51,7 +52,7 @@
         android:layout_height="wrap_content" >
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtTime"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -61,7 +62,8 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btnTime" />
+            android:text="@string/btnTime"
+            android:onClick="showTimepicker" />
 
     </TableRow>
 
