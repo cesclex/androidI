@@ -3,7 +3,6 @@ package com.udb.modulo1.clase1201;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
@@ -24,9 +23,7 @@ public class MainActivity extends Activity {
 	}
 	public void callActivity(View view){
 		try{
-			PackageManager manager = getPackageManager();
-			String name="com.udb.modulo1.clase1102";
-			Intent intent = manager.getLaunchIntentForPackage(name);
+			Intent intent = new Intent("ACTIVIDAD2");
 			startActivity(intent);
 		}catch(Exception e){
 			Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
