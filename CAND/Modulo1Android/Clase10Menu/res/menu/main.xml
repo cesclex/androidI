@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/action_settings"
+        android:icon="@drawable/action_settings" 
+        />
+    <item android:id="@+id/action_new" 
+        android:icon="@drawable/content_new" 
+        app:showAsAction="always" 
+        android:title="@string/action_new" android:orderInCategory="300"></item>
+    <item android:id="@+id/menuedit" android:title="@string/menuedit" android:icon="@drawable/collections_view_as_grid" android:orderInCategory="100" app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menucut" android:title="@string/menucut"/>
+            <item android:id="@+id/menucopy" android:title="@string/menucopy"/>
+        </menu>
+    </item>
+
+</menu>
