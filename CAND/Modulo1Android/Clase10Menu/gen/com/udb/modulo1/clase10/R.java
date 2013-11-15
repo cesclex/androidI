@@ -982,7 +982,11 @@ containing a value of this type.
         public static final int action_settings=0x7f020057;
         public static final int collections_view_as_grid=0x7f020058;
         public static final int content_new=0x7f020059;
-        public static final int ic_launcher=0x7f02005a;
+        public static final int hover=0x7f02005a;
+        public static final int ic_launcher=0x7f02005b;
+        public static final int normal=0x7f02005c;
+        public static final int normal_shape=0x7f02005d;
+        public static final int selectoritem=0x7f02005e;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f050042;
