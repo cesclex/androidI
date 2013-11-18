@@ -1,0 +1,7 @@
+package com.udb.modulo1.clase22.sqlite;
+
+import android.database.sqlite.SQLiteDatabase;
+
+public class SQLliteHelper extends SQLiteDatabase {
+
+}
